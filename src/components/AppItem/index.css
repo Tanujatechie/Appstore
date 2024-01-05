@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.app-item {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  padding-top: 16px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  list-style-type: none;
+  max-width: 129px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-item {
+    padding-top: 18px;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-bottom: 15px;
+    max-width: 198px;
+  }
+}
+
+.app-image {
+  width: 60px;
+  height: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-image {
+    width: 102px;
+    height: 102px;
+  }
+}
+
+.app-name {
+  color: #1e293b;
+  font-family: Bree Serif;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-name {
+    font-size: 23px;
+  }
+}
